@@ -9,18 +9,18 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: #222;
+    background: #2b2a2a;
     font-family: sans-serif;
     background-image: url('https://source.unsplash.com/1600x900/?landscape');
     font-size: 100%;
 }
 .card{
-    background: #20232c;
+    background: #1c1f2a;
     color: #fff;
     padding: 1.8em;
-    border-radius: 28px;
+    border-radius: 30px;
     width: 100%;
-    max-width: 418px;
+    max-width: 420px;
     margin: 1.2em;
 }
 .search{
@@ -29,19 +29,19 @@ body{
     justify-content: center;
 }
 button{
-    width:28px;
+    width:30px;
     margin: 0.6em;
     border-radius: 45%;
     border: none;
-    height: 28px;
+    height: 30px;
 outline: none;
 background: #807b7b2b;
-color: #d5e2ee;
+color: #cfdce8;
 cursor: pointer;
 transition: 0.3s ease-in-out;
 }
 button:hover{
-    background: #8885856b;
+    background: #8b86866b;
 }
 input.search-bar{
     outline: none;
@@ -54,4 +54,32 @@ input.search-bar{
     font-size: 120%;
     width: calc(100% - 103px);
 }
-h1
+h1 .temp{
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    margin-left: 9px;
+  }
+  
+  .weather.loading {
+    visibility: hidden;
+    max-height: 23px;
+    position: relative;
+  }
+  
+  .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
