@@ -1,6 +1,6 @@
 let weather = {
   apiKey: "87926940df59d9180da8c4e25ab00e12",
-  unsplashAccessKey: "KL87XtOohcDJVX1AgwXBNYlCSiVhCcDHT-ovg0JPPmk", // Add your Unsplash Access Key here
+  unsplashAccessKey: "KL87XtOohcDJVX1AgwXBNYlCSiVhCcDHT-ovg0JPPmk", 
   fetchWeather: function (city) {
     fetch(
       "https://api.openweathermap.org/data/2.5/weather?q=" +
